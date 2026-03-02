@@ -34,10 +34,6 @@ header {
     height: auto;       /* maintain aspect ratio */
 }
 
-.logo-container img {
-    width: 55px;
-    margin-right: 10px;
-}
 
 nav a {
     color: white;
@@ -210,3 +206,4 @@ footer {
     }
 
 }
+
