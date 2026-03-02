@@ -111,15 +111,21 @@ nav a:hover {
 
 .service-box {
     background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    transition: 0.4s;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: 0.4s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 .service-box .icon {
-    font-size: 40px;
-    margin-bottom: 15px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #1f7a8c;
 }
 
 .service-box h3 {
@@ -210,21 +216,5 @@ footer {
     }
 
 }
-.service-box {
-    background: white;
-    padding: 35px;
-    border-radius: 20px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-    transition: 0.4s ease;
-}
 
-.service-box:hover {
-    transform: translateY(-12px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-}
 
-.service-box .icon {
-    font-size: 50px;
-    margin-bottom: 20px;
-    color: #1f7a8c;
-}
