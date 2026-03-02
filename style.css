@@ -111,21 +111,15 @@ nav a:hover {
 
 .service-box {
     background: white;
-    padding: 35px;
-    border-radius: 20px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-    transition: 0.4s ease;
-}
-
-.service-box:hover {
-    transform: translateY(-12px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.4s;
 }
 
 .service-box .icon {
-    font-size: 50px;
-    margin-bottom: 20px;
-    color: #1f7a8c;
+    font-size: 40px;
+    margin-bottom: 15px;
 }
 
 .service-box h3 {
@@ -214,7 +208,15 @@ footer {
         margin: 10px;
         display: inline-block;
     }
-
 }
 
+.phone-link {
+    color: #1f7a8c;
+    text-decoration: none;
+    font-weight: 600;
+}
 
+.phone-link:hover {
+    text-decoration: underline;
+    color: #d35400;
+}
