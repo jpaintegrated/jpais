@@ -265,25 +265,6 @@ footer {
     z-index: 1000;
 }
 
-/* Call Button */
-.call-float {
-    background-color: #1f7a8c;
-    color: white;
-    font-size: 22px;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 55px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transition: 0.3s ease;
-}
-
-.call-float:hover {
-    background-color: #155e69;
-    transform: scale(1.1);
-}
-
 /* WhatsApp Button */
 .whatsapp-float {
     background-color: #25D366;
@@ -302,3 +283,4 @@ footer {
     background-color: #1ebe5d;
     transform: scale(1.1);
 }
+
