@@ -27,9 +27,11 @@ header {
     z-index: 1000;
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
+/* Make logo bigger */
+.logo-container img {
+    width: 130px;       /* increased from 55px to 90px */
+    margin-right: 15px; /* slightly more spacing */
+    height: auto;       /* maintain aspect ratio */
 }
 
 .logo-container img {
@@ -206,4 +208,5 @@ footer {
         margin: 10px;
         display: inline-block;
     }
+
 }
