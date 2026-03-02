@@ -221,39 +221,6 @@ footer {
     color: #d35400;
 }
 
-.whatsapp-link {
-    color: #25D366;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.whatsapp-link:hover {
-    text-decoration: underline;
-}
-
-/* Floating WhatsApp Button */
-.whatsapp-float {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    background-color: #25D366;
-    color: white;
-    font-size: 28px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 60px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    z-index: 1000;
-    transition: 0.3s ease;
-}
-
-.whatsapp-float:hover {
-    transform: scale(1.1);
-    background-color: #1ebe5d;
-}
-
 /* Floating Buttons Container */
 .floating-buttons {
     position: fixed;
@@ -283,4 +250,5 @@ footer {
     background-color: #1ebe5d;
     transform: scale(1.1);
 }
+
 
